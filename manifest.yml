@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: mjdavis-Z2CV2-Nodered
+  host: mjdavis-Z2CV2-Nodered
+  disk_quota: 1024M
+  services:
+  - Text to Speech-6t
+  - Natural Language Classifier-tq
+  - Conversation-cn
+  - mjdavis-Z2CV2-Nodered-cloudantNoSQLDB
